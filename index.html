@@ -9,8 +9,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="mx-20">
-  <nav class="mt-8">
+<body>
+  <nav class="mt-8 mx-20">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -50,7 +50,7 @@
       </div>
     </div>
   </nav>
-  <header>
+  <header class="mx-20">
     <div>
       <div class="carousel w-full mt-8">
         <div id="slide1" class="carousel-item relative w-full">
@@ -431,7 +431,7 @@
       </div>
     </section>
   </header>
-  <main>
+  <main class="mx-20">
     <section>
       <div class="mt-32">
         <h1 class="text-3xl font-bold text-center">Clients Question</h1>
@@ -556,10 +556,68 @@
           <button class="btn bg-red-600 text-white w-full mt-4">Send Message</button>
         </div>
       </div>
+      <div class="w-[1200px] h-40 bg-gray-100 rounded-lg mt-14">
+        <div>
+          <h1 class="text-2xl font-bold text-center pt-5">Social Media</h1>
+        </div>
+        <div>
+          <div class="flex justify-center mt-5 gap-3">
+            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg>
+            
+            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+
+
+            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="4" width="16" height="16" rx="4" />  <circle cx="12" cy="12" r="3" />  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" /></svg>
+
+            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M9 19c-4.286 1.35-4.286-2.55-6-3m12 5v-3.5c0-1 .099-1.405-.5-2 2.791-.3 5.5-1.366 5.5-6.04a4.567 4.567 0 0 0 -1.333 -3.21 4.192 4.192 0 00-.08-3.227s-1.05-.3-3.476 1.267a12.334 12.334 0 0 0 -6.222 0C6.462 2.723 5.413 3.023 5.413 3.023a4.192 4.192 0 0 0 -.08 3.227A4.566 4.566 0 004 9.486c0 4.64 2.709 5.68 5.5 6.014-.591.589-.56 1.183-.5 2V21" /></svg>
+
+        
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="footer p-10 bg-black text-base-content text-white mt-20">
+    <aside>
+      <h2 class="text-2xl font-medium">Get In Touch</h2>
+      <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+    <div class="flex gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+      </svg>
+      <p>hockeys@support.com</p>
+    </div>
+    <div class="flex gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+      </svg>
+      
+      <h1>(+62) 123-321-543</h1>
+    </div>
+    </aside> 
+    <nav>
+      <h6 class="footer-title">Company</h6> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Support</h6> 
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Services</h6> 
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lessony</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
   </footer>
 </body>
 
